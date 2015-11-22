@@ -1,1 +1,15 @@
-test
+#Code Book
+
+##Getting and Cleaning Data Project
+
+The file "run_analysis.R" will read and perform the 'Human Activity Recognition Using Smartphones Data Set' available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+1) It merges both training and test sets ("X_train.txt" and "X_test.txt").
+It includes the subjects who performed the activities ("subject_train.txt and" "subject_test.txt").
+It does NOT include the Inertial Signals.
+It properly labels all the data.
+It subsets the data using only subjects and measurement that are mean values or standard deviation values.
+It does NOT use in the data subset any of the 'angle' values, although they are calculated using mean values.
+It creates a tidy data set with the average of each of the variables on the data subset for each activity and each subject.
+It exports the final tidy data set to a 'dataProj.csv'.
+In the final file you will have a row for the average of each measured variable of the subset and each column represents a subject.activity.
