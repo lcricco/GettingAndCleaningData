@@ -17,5 +17,5 @@ The file "run_analysis.R" will perform the follow steps:
 - Name the activities in the data set.
 - Appropriately labels the data set with descriptive variable names.
 - Create a tidy data set with the average of each variable for each activity and each subject.
-- Export this tidy data set to your working directory.
+- Export this tidy data set as a "csv" file to your working directory.
 
